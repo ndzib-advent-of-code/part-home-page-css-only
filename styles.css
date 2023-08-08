@@ -1,0 +1,206 @@
+body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background-color: rgb(240, 245, 245);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    font-size: 10px;
+    padding: 20px 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.nav-items {
+    display: flex;
+    gap: 45px;
+    list-style-type: none;
+}
+
+li > a:link, li > a:visited, li> a:active {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: inherit;
+    opacity: .6;
+}
+
+.cta-btn {
+    padding: 15px 32px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: inherit;
+}
+
+.hero-text {
+    max-width: 900px;
+    font-size: 70px;
+    line-height: 90px;
+    padding: 10vh 0;
+}
+
+.accent-text, .accent-text:link, .accent-text:visited, .accent-text:active {
+    color: orange;
+}
+
+.two-cols {
+    display: grid;
+    grid-template-columns: 35vw 1fr;
+    align-items: start;
+    background-color: white;
+    padding: 20px 40px;
+}
+
+.heading {
+    font-size: 28px;
+}
+
+.details {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail-name {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.detail-desc {
+    opacity: .8;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+
+.details ul {
+    list-style-position: inside;
+}
+
+main {
+    padding: 0 8vw;
+}
+
+.pre-footer {
+    margin-top: 10vh;
+    min-height: 55vh;
+    background-color: rgb(82, 82, 180);
+}
+
+.footer {
+    min-height: 70vh;
+    color: white;
+    background-color: rgb(31, 31, 31);
+    padding: 10vh 20vw 8vh;
+}
+
+.locations {
+    display: flex;
+    gap: 20px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 150px;
+}
+
+address {
+    font-size: 14px;
+    line-height: 22px;
+    font-style: normal;
+    opacity: .6;
+}
+
+.contacts a:link {
+    font-size: 28px;
+    font-weight:  bold;
+    text-decoration: none;
+}
+
+.contacts {
+    display: flex;
+    gap: 55px;
+    padding: 25px 0;
+}
+
+.locations-heading {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.privacy-policy:link, .privacy-policy:visited, .privacy-policy:active {
+    color: inherit;
+    text-decoration: none;
+    opacity: .75;
+}
+
+.direction {
+    position: block;
+    margin: 40px 0 50px;
+    padding: 12px 20px;
+    min-width: 200px;
+    background-color: transparent;
+    border: 1px solid blueviolet;
+    color: white;
+    border-radius: 2px;
+}
+
+.footer-end {
+    font-size: 13px;
+    display: flex;
+    gap: 100px;
+}
+
+.copyright {
+    opacity: 0.4;
+}
+
+.socials {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials-title {
+    opacity: .3;
+    font-size: 15px;
+}
+
+.media {
+    display: flex;
+    gap: 20px;
+}
+
+.media > a:link, .media > a:visited, .media > a:active {
+    text-decoration: none;
+    color: inherit;
+    opacity: .9;
+    background-color: rgba(82, 79, 79, 0.4);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px;
+}
+
+.media > a > svg {
+    width: 25px;
+    height: 25px;
+}
